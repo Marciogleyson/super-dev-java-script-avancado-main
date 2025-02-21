@@ -1,0 +1,23 @@
+
+request (requisição), response (resposta)
+
+cliente(mobile, web, desktop) request
+servidor(php, python, java) receber o request e retornar -> response (lista de clientes)
+
+request: é a solicitação(resquest) de dados, ou solicitação de cadastro, alterar, exclusão
+response: e´a resposta que o servidor da para o cliente
+request URL: é o local que será executado a requisição
+request Method: é o verbo utilizado para requisição
+
+status code: é o status de resposya que o servidor deu, exemplos:
+-200: ok
+-201:created
+-404: não escontrado
+- 500: erro no servidro
+
+
+GET: utilizado para consultar um dado ou váriavel(exemplo preciso da lista de clientes na tela)
+POST: utilizado para cadastra algo(exeplo preciso cadastra o cliente)
+PUT: utilizado para atualizar todos os campos de uma tabela(exemplo preciso alterar o cadastro commpleto do cliente)
+PATCH: utilizado para atualizar dados parciais (exemplo preciso alterar o telefone do cliente)
+DELETE: utilizado para apagar registro(explo preciso apagar o cliente)

@@ -1,3 +1,5 @@
+let urlAPI = "https://public.franciscosensaulas.com"
+
 function atribuirCliqueBotoesApagar(){
     
     
@@ -30,6 +32,8 @@ function apagar() {
 }
 
 async function apagarEmpresa(){
+    let url = `${urlAPI}/api/empresa`
+
     Swal.fire({
         title: "Apagado!",
         text: "Empresa removida com sucesso!",

@@ -2,7 +2,6 @@ let urlAPI = "https://public.franciscosensaulas.com"
 
 function atribuirCliqueBotoesApagar(){
     
-    
     // pegar a lista de elementos que contém a class="botao-apagar"
     let botoesApagar = document.getElementsByClassName("botao-apagar");
     // foreach percorre cada um dos elementos da lista

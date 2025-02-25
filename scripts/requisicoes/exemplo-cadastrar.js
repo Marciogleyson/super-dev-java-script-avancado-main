@@ -31,7 +31,7 @@ async function salvar(e) {
         cnpj: cnpj
     }
 
-    let url = `${urlAPI}/api/empresa`;
+    let url = `${urlAPI}/api/v1/empresa`;
 
     const resposta = await fetch(url, {
         method: "POST",

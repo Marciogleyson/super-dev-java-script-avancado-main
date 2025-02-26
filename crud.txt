@@ -21,3 +21,38 @@ POST: utilizado para cadastra algo(exeplo preciso cadastra o cliente)
 PUT: utilizado para atualizar todos os campos de uma tabela(exemplo preciso alterar o cadastro commpleto do cliente)
 PATCH: utilizado para atualizar dados parciais (exemplo preciso alterar o telefone do cliente)
 DELETE: utilizado para apagar registro(explo preciso apagar o cliente)
+
+Resquest Payloal: dados que são enviados na requisição para o beck-end
+
+- lista de inteiro[1, 2, 3, 4]
+-objeto:
+{
+   "nome": "Francisco",
+   "idade": 20
+}
+
+-lista de objetos
+
+[
+  { "nome": "Power Ranger Rosa",
+    "arma": "aco e flexha"
+  },
+  { "nome": "Power Ranger Preto",
+    "arma": "Tacape"
+  }
+]
+
+	
+como depurar no navegador o código JavaScript
+- colocar a palavra 'debugger' antes da linha que vc deseja analizar
+- voltar para navegador
+- abrir as ferramentas de desenvolviment F12
+- Executar a ação que faz chegar até naquela linha( se for na ação de um botão, clique no botão)
+- Ps: Soucers é o lugar onde fica os códigos do navegador (JS, CSS)
+- F11 ´Step Into (se estiver em uma linha que chama um funcition entrará nessa funcition)
+-F10 - Step Over (vai para a próxima linha)
+- F8 = Continuar até o próximo debugger/breakpoint
+
+PS.: Breakpoint é um ponto de parada, mesma coisa que o debugger.
+
+Depurar é a ação de analisar um poblema, linha a linha.

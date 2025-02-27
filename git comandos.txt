@@ -1,0 +1,49 @@
+git branch -D <nome> => Apagar branch local
+git checkout -b <nome> => Criar branch local
+git reset HEAD~1 => Desfazer 1 commit local
+git reflog => Ver todos os comandos de git executados
+git fetch => Descobrir o que tem de novo no repositório remoto(GitHub)
+git pull origin <nome> => Obter os commits do repo remoto para o local
+git branch => listar branchs locais
+
+git merge <nome-branch> => Fazer o merge de uma branch na sua branch local
+
+git remote add origin "<link-repo>" => Adicionar o link do github
+git remote remove origin => Remover o link do github (da minha máquina)
+git remote get-url origin => Pegar o link do github (para visualizar)
+git remote set-url origin "<link-repo>" => Definir o link do github (alterar)
+
+git checkout . => CUIDADO desfaz as modificações que estão locais fora do stage
+git restore --staged <nome-arquivo>  => Remove o arquivo do stage
+Procurar vídeos sobre git stash
+
+https://www.youtube.com/watch?v=Zwv9qRyVeU4
+
+https://www.youtube.com/watch?v=6Czd1Yetaac
+
+git clone <link> => branch main
+#troca a para a branch que está desenvolvendo
+git checkout feat/...
+
+
+git fetch
+git status
+git checkout feat/...
+git pull origin feat/...
+
+
+git fetch
+git checkout main
+git pull origin main (minha máquina <- github)
+git checkout -b feat/home (criar branch máquina)
+// implementar
+git add .
+git commit -m "mensagem"
+//criar o pull request caso termina a implementação
+// fazer o merge pr
+git ferch
+// git checkout
+git pull origin main (minha makinha <- github)
+git checkout -b feat/crud-produto
+
+CRUD -> 4 
